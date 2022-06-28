@@ -21,6 +21,7 @@ void swapreference(int &a, int &b) //giving address here
     int temp=a;
     a=b;
     b=temp;
+    
 }
 
 int main()

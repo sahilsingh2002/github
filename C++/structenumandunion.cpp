@@ -24,26 +24,26 @@ union money
 
 int main()
 {
-union money m1;
-m1.rice=34;
-m1.car='c';
-// cout<<m1.car<<endl;
-// cout<<m1.rice<<endl;
-enum Meal{breakfast, lunch, denorm_indeterminate};
-// cout<<breakfast;
-Meal m2=breakfast;
-cout<<m2;
+// union money m1;
+// m1.rice=34;
+// m1.car='c';
+// // cout<<m1.car<<endl;
+// // cout<<m1.rice<<endl;
+// enum Meal{breakfast, lunch, denorm_indeterminate};
+// // cout<<breakfast;
+// Meal m2=breakfast;
+// cout<<m2;
 
 
 
-    // struct employee harry;
-    // harry.eId=1;
-    // harry.favChar='c';
-    // harry.salary=1200000000;
-    // cout<<harry.salary<<endl;
-    // cout<<harry.eId<<endl;
-    // cout<<harry.favChar<<endl;
-    // struct employee shubham;
+    struct employee harry;
+    harry.eId=1;
+    harry.favChar='c';
+    harry.salary=1200000000;
+    cout<<harry.salary<<endl;
+    cout<<harry.eId<<endl;
+    cout<<harry.favChar<<endl;
+    struct employee shubham;
     // ep rohan;
     
 
