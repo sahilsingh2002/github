@@ -1,0 +1,4 @@
+client requests resource, server sends resource
+server decides what content to serve
+client is frontend
+server is backend -- gives required data
